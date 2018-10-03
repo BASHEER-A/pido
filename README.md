@@ -27,10 +27,11 @@ python pido.py -u "http://f90.x8top.net/2107tmp/cf/soft/2018/9/ba/1/vlc-3.0.4-wi
 [+] Set timeout to 30 seconds
 [+] Downloading to vlc-3.0.4-win32.exe...
 [+] Running 32 processes...
-8.65 MB / 38.35 MB [####--------------] [22.55%]
+38.35 MB / 38.35 MB [######################] [100.00%]
 [+] File is downloaded.
 ```
  
 ```
 python pido.py -f "path\\to\\downloadlinks.txt"
 ```
+
