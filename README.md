@@ -35,4 +35,4 @@ python pido.py -u "http://f90.x8top.net/2107tmp/cf/soft/2018/9/ba/1/vlc-3.0.4-wi
 ```
 python pido.py -f "path\\to\\downloadlinks.txt"
 ```
-
+![alt text](https://raw.githubusercontent.com/vanduan/pido/master/recorded_1.png)
