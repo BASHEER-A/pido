@@ -1,6 +1,7 @@
 # pido
-Multithreading download with python
-Modify from https://code.activestate.com/recipes/578220-multithreading-downloader-class/
+
+* Multithreading download with python
+* Modify from https://code.activestate.com/recipes/578220-multithreading-downloader-class/
 
 ##Installing:
 ```
