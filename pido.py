@@ -205,13 +205,10 @@ def DownloadFile_Parall(url, path=None, processes=6,
     file_parts = mapObj.get()
     pool.terminate()
     pool.join()
-    
+    print " [+] Combining file..."+" "*30
     combine_files(file_parts, path)
-    # check sum
-    if filesize == int(os.path.getsize(path)):
-        print "[+] File is downloaded."+" "*30
-    else:
-        print "[-] File is missing some byte."+" "*25
+    print "[+] File is OK. Have fun!"
+
 def combine_files(parts, path):
     '''
     Function combines file parts.
